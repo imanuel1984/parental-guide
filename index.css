@@ -8,3 +8,5 @@ img:hover:not(header img){box-shadow: #ff4cf0 5px 5px 15px;transition: all 0.3s 
 .text{flex-direction: column;margin-right: 30px;}
 @media(max-width: 600px) {header, .h{flex-direction: column;justify-content: center;align-items: center;}
 .header img{width: 150px;height: 150px;}}
+a{text-decoration-line: none;}
+a:active{text-decoration-line: underline;color: #ff4cf0;}
