@@ -8,14 +8,3 @@ img:hover:not(header img){box-shadow: #ff4cf0 5px 5px 15px;transition: all 0.3s 
 .text{flex-direction: column;margin-right: 30px;}
 @media(max-width: 600px) {header, .h{flex-direction: column;justify-content: center;align-items: center;}
 .header img{width: 150px;height: 150px;}}
-=======
-header{background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);background-size:cover;background-repeat: no-repeat;background-attachment: fixed;color: #670000;text-align: center;padding: 10px;font-size: large;box-shadow: #4C83FF 5px 5px 15px;}
-body{background-image: linear-gradient( 135deg, #FFF3B0 10%, #CA26FF 100%);background-size: cover;background-repeat: no-repeat;background-attachment: fixed; text-align: left;}
-header img{margin-top: 0px;padding-top: 0px;width: 200px;height: 200px;border-radius: 50%;}
-header h1,header img{box-shadow: #ff4cf0 5px 5px 15px;}  
-.p:hover{box-shadow: #ff4cf0 5px 5px 15px;transition: all 0.3s ease-in-out;transform: scale(2);transform-origin: right center;}  
-img:hover:not(header img){box-shadow: #ff4cf0 5px 5px 15px;transition: all 0.3s ease-in-out;transform: scale(2);transform-origin: left;border-radius: 25%;}
-.h{display:flex;text-align: center;justify-content: right;align-items: center;}
-.text{flex-direction: column;margin-right: 30px;}
-@media(max-width: 600px) {header, .h{flex-direction: column;justify-content: center;align-items: center;}
-.header img{width: 150px;height: 150px;}}
